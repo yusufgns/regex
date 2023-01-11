@@ -1,4 +1,4 @@
-**Phone Number**
+[**Phone Number**
 
 125-500-8512
 1255008512
@@ -66,7 +66,7 @@ www.google.com
 #360Day
 #Derdimianlatabilmişimdir
 
-// /#[a-zA-Z0-9]/gmu
+// /#[a-zA-Z0-9]/gmu]
 
 
 **Usage in lines of code**
