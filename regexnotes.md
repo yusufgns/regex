@@ -1,4 +1,4 @@
-** Phone Number **
+**Phone Number**
 
 125-500-8512
 1255008512
@@ -8,7 +8,7 @@
 
 // /(?<areaCode>\+\d{2,3})?[ ]?\(?(?<operator>\d{3})\)?[ -]?(?<mainNumber>\d{3})[ -]?(?<Number>\d{4})/gm
 
-** History **
+**History**
 
 14/02/2018
 14-02-2018
@@ -25,7 +25,7 @@
 // /(?<yearNumber>\d{1,4})[ \.\/\-](?<monthNumber>\d{1,2})[ \.\/\-](?<dayNumber>\d{1,2})/gm
 
 
-** Link Inside a **
+**Link Inside a**
 
 [https://www.videosinif.com~videosinif]
 /(?<=\[)(?<url>.*)(?=~)~(?<=~)(?<titel>.*)(?=\])/gm
@@ -42,14 +42,14 @@
 // <a href="https://www.videosinif.com">videosinif</a>
 
 
-** E-mail **
+**E-mail**
 
 gokhan@kandemir.com
 
 // /\w+@\w+\.[a-zA-Z]{2,}/gmu
 
 
-** Link In Text **
+**Link In Text**
 
 youtube.com
 https://www.google.com
@@ -59,7 +59,7 @@ www.google.com
 // /(https?:\/\/)?(www\.)?([a-zA-Z0-9]+)(\.[a-zA-Z]{2,})/gm
 
 
-** Hesteg(#) **
+**Hesteg(#)**
 
 #Regex
 #tag
@@ -69,7 +69,7 @@ www.google.com
 // /#[a-zA-Z0-9]/gmu
 
 
-** Usage in lines of code **
+**Usage in lines of code**
 
 const email_regex = /\w+@\w+\.[a-zA-Z]{2,}/gmu;
 if (email_regex.test("gokhan@gkandemir")) {
